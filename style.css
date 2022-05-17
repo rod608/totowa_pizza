@@ -52,7 +52,16 @@ nav .btn-success {
 }
 
 /* Menu */
+.menu-category {
+    font-family: 'Merriweather', serif;
+    font-size: 2rem;
+    color: #C54531;
+}
 
+.menu-item-card-body {
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+}
 
 /* BS5 Media Queries - up or down */
 @media (min-width: 576px) {
