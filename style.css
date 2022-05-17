@@ -1,5 +1,5 @@
 /* Fonts - Link via (@import) */
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,700;1,400&family=Ubuntu:wght@400;700&display=swap');
 
 /* Variables */
 root {
@@ -15,15 +15,14 @@ box-sizing: var(--boxSizing);
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
 }
 
 p {
     font-family: 'Times New Roman', Times, serif;
     font-size: 15rem;
 }
-
-/* Sectional Styles */
 
 /* Navbar */
 nav {
@@ -52,11 +51,7 @@ nav .btn-success {
     border-radius: 15px;
 }
 
-
-
-    /* Section #2 */
-    
-    /* Section #3 */
+/* Menu */
 
 
 /* BS5 Media Queries - up or down */
