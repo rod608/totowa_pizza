@@ -63,6 +63,12 @@ nav .btn-success {
     padding-bottom: 0 !important;
 }
 
+.vegan-menu-option {
+    color: #1A8754;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+
 /* BS5 Media Queries - up or down */
 @media (min-width: 576px) {
 
