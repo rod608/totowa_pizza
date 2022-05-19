@@ -39,7 +39,7 @@
   </head>
   <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-light navbar-expand-sm border-bottom shadow">
+    <nav class="navbar navbar-light navbar-expand-sm border-bottom sticky-top bg-white shadow">
       <div class="container-fluid">
 
         <!-- Brand && Mobile Menu Button -->
@@ -78,9 +78,7 @@
     </nav>
 
     <!-- Event Header (Sales, Updates, ETC) -->
-    <header class="border-top">
-    
-    </header>
+    <header class="border-top"></header>
 
     <!-- Main Sections -->
     <main>
@@ -1988,10 +1986,45 @@
       </section>
 
       <!-- Contact Section -->
-      <section id="contact" class="py-4 vh-100 border-top border-bottom">
+      <section id="contact" class="py-4 border-top border-bottom">
         <div class="container">
 
-          <h1 class="text-center text-decoration-underline">Contact Us!</h1>
+          <h1 class="text-center text-decoration-underline mb-4">Contact Us!</h1>
+
+          <div class="container">
+            <div class="row row-cols-1 row-cols-md-2">
+
+              <div class="col d-grid justify-content-center align-items-center">
+                <!-- Operating Hours -->
+                <div id="operating-hours" class="pb-3">
+                  <h5>Operating Hours</h5>
+                  <p>Tuesdays to Thursdays : 10 AM - 10PM</p>
+                  <p>Mondays & Special Holidays: Closed</p>
+                </div>
+
+
+                <!-- Phone Number -->
+                <div id="phone-number" class="pb-3">
+                  <h5>Phone Number</h5>
+                  <p class="mb-2">(973)-689-6465</p>
+                  <a href="tel:973-689-6465" class="btn btn-success mb-3" type="button">Click to Call: <i class="fa-solid fa-mobile-screen-button"></i></a>
+                </div>
+                
+                <!-- Address -->
+                <div id="address" class="pb-3">
+                  <h5>Address</h5>
+                  <p class="mb-2">333 Totowa Rd, Totowa, NJ 07512</p>
+                  <a href="https://maps.google.com/maps/dir//Totowa+pizza+333+Totowa+Rd+Totowa,+NJ+07512/@40.9047171,-74.2090899,15z/data=!4m5!4m4!1m0!1m2!1m1!1s0x89c2ffde621c25bf:0xb0a27b269867cc33" target="_blank" class="btn btn-success mb-3" type="button">Click for Directions: <i class="fa-solid fa-map-location-dot"></i></a>
+                </div>
+              </div>
+
+              <!-- Google Maps -->
+              <div class="col" id="maps-div">
+                <iframe class="shadow-lg d-block mx-auto img-fluid w-100 h-100" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12062.011763847368!2d-74.2090899!3d40.9047171!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb0a27b269867cc33!2sTotowa%20pizza!5e0!3m2!1sen!2sus!4v1652986060198!5m2!1sen!2sus" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+
+            </div>
+          </div>
 
         </div>
       </section>
