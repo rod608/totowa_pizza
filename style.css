@@ -69,6 +69,19 @@ nav .btn-success {
     font-weight: bold;
 }
 
+/* Contact */
+#contact #maps-div {
+    height: 25rem;
+}
+
+#contact .btn-success {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bolder;
+    border-radius: 15px;
+}
+
+
+
 /* BS5 Media Queries - up or down */
 @media (min-width: 576px) {
 
