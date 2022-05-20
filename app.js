@@ -29,3 +29,26 @@ navItems.forEach(navItem => {
         }
     });
 });
+
+/* Current Open/Closed Status */
+
+// Step #1: Query Selectors for the open & closed elements
+open_contact_us = document.querySelector('#open-status');
+closed_contact_us = document.querySelector('#closed-status');
+
+// Step #2: Check the time.
+const date = new Date();
+
+hour = date.getHours();
+month = date.getMonth();
+day = date.getDay();
+
+if (hour < 10 || hour > 22) {
+    closed_contact_us.classList.remove('d-none');
+} 
+else if (day == 25 && month == 12) {
+    closed_contact_us.classList.remove('d-none');
+}
+else {
+    open_contact_us.classList.remove('d-none');
+}

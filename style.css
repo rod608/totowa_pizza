@@ -63,10 +63,21 @@ nav .btn-success {
     padding-bottom: 0 !important;
 }
 
-.vegan-menu-option {
+span.vegan-menu-option {
     color: #1A8754;
     font-family: 'Ubuntu', sans-serif;
     font-weight: bold;
+}
+
+span.catering-alert {
+    color: #C54531;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+
+h1#catering-menu {
+    font-family: 'Merriweather', serif;
+    color: #1A8754;
 }
 
 /* Contact */

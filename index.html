@@ -61,10 +61,6 @@
               <a href="#delivery" class="nav-link nav-link-regular">Delivery</a>
             </li>
 
-            <li class="nav-item nav-item-regular">
-              <a href="#catering" class="nav-link nav-link-regular">Catering</a>
-            </li>
-
             <li class="nav-item">
               <a href="#contact" class="nav-link btn btn-success" type="button">Contact Us!
                 <i class="fa-solid fa-phone"></i>
@@ -92,9 +88,10 @@
 
           <!-- Menu Title -->
           <h1 class="text-center text-decoration-underline">Menu</h1>
-          <p class="my-auto text-center">
+          <p class="my-auto text-center mb-0">
             <span class="vegan-menu-option">*</span> Asterisk = Vegetarian Friendly <span class="vegan-menu-option">*</span>
           </p>
+          <p class="text-center"><span class="catering-alert">!!!</span> scroll down for our <a href="#catering-menu" class="text-decoration-none">catering services</a> <span class="catering-alert">!!!</span></p>
 
           <!-- Menu Body -->
           <div class="container-fluid container-md">
@@ -1962,6 +1959,20 @@
               </div>
             </div>
 
+            <!-- Catering Menu -->
+            <h1 id="catering-menu" class="text-center text-decoration-underline">Catering Menu</h1>
+            <div class="card border-0">
+              <div class="card-body menu-item-card-body">
+                <div class="d-inline-flex w-100">
+                  <p>Fettuccine Alfredo w/ Grilled Chicken</p>
+                  <p class="ms-auto">$10.95 L | $13.95 D</p>
+                </div>
+                <p>
+                  <em>~ w/ grilled chicken, broccoli</em>
+                </p>
+              </div>
+            </div>
+
           </div>
 
         </div>
@@ -1971,19 +1982,19 @@
       <section id="delivery" class="py-4 vh-100 border-top border-bottom">
         <div class="container">
 
-          <h1 class="text-center text-decoration-underline">Delivery</h1>
+          <h1 class="text-center text-decoration-underline mb-4">Delivery</h1>
 
         </div>
       </section>
 
       <!-- Catering Section -->
-      <section id="catering" class="py-4 vh-100 border-top border-bottom">
+      <!-- <section id="catering" class="py-4 vh-100 border-top border-bottom">
         <div class="container">
 
-          <h1 class="text-center text-decoration-underline">Catering</h1>
+          <h1 class="text-center text-decoration-underline mb-4">Catering</h1>
 
         </div>
-      </section>
+      </section> -->
 
       <!-- Contact Section -->
       <section id="contact" class="py-4 border-top border-bottom">
@@ -2000,6 +2011,8 @@
                   <h5>Operating Hours</h5>
                   <p>Tuesdays to Thursdays : 10 AM - 10PM</p>
                   <p>Mondays & Special Holidays: Closed</p>
+                  <p id="open-status" class="d-none">Current Status: <span class="vegan-menu-option">Open</span></p>
+                  <p id="closed-status" class="d-none">Current Status: <span class="catering-alert">Closed</span> </p>
                 </div>
 
                 <!-- Phone Number -->
