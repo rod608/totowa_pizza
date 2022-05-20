@@ -144,8 +144,17 @@ h1#catering-menu {
 
 }
 
-@media (min-width: 768px) { 
+@media (max-width: 768px) { 
+    .material {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: .75rem 1.25rem;
+    }
 
+    nav .material {
+        padding-left: .5rem !important;
+    }
 }
 
 @media (min-width: 992px) { 
