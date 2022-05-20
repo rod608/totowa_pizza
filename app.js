@@ -26,6 +26,8 @@ navItems.forEach(navItem => {
     navItem.addEventListener('click', () => {
         if (menuOpen) {
             setTimeout(() => {menuBtn.click()}, '800');
+            navItem.click();
+            menuOpen = false;
         }
     });
 });
