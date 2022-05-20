@@ -42,8 +42,9 @@ nav .nav-link-regular {
     color: #4C4C4C !important;
 }
 
-nav .nav-item-regular:hover {
-    text-decoration: underline;
+nav a.nav-link-regular:hover {
+    transition: all .3s ease-in-out;
+    color:#1A8754 !important;
 }
 
 nav .btn-success {
@@ -73,6 +74,15 @@ span.catering-alert {
     color: #C54531;
     font-family: 'Ubuntu', sans-serif;
     font-weight: bold;
+}
+
+#menu a:hover {
+    transition: all .3s ease;
+    text-decoration: none;
+    background: #1A8754;
+    color: white !important;
+    border-radius: 5px;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 h1#catering-menu {

@@ -43,12 +43,9 @@ hour = date.getHours();
 month = date.getMonth();
 day = date.getDay();
 
-if (hour < 10 || hour > 22) {
+if ((hour < 10 || hour > 22) || (day == 25 && month == 12) || (day == 1)) {
     closed_contact_us.classList.remove('d-none');
 } 
-else if (day == 25 && month == 12) {
-    closed_contact_us.classList.remove('d-none');
-}
 else {
     open_contact_us.classList.remove('d-none');
 }
