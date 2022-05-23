@@ -7,11 +7,11 @@ let menuOpen = false;
 menuBtn.addEventListener('click', () => {
     if (!menuOpen) {
         menuBtn.classList.add('open');
-        navbar.classList.add('bg-white');
+        // navbar.classList.add('bg-white');
         menuOpen = true;
     } else {
         menuBtn.classList.remove('open');
-        navbar.classList.remove('bg-white');
+        // navbar.classList.remove('bg-white');
         menuOpen = false;
     }
 });
@@ -20,13 +20,15 @@ menuBtn.addEventListener('click', () => {
 
 // Step #1: Make query selectors for all nav items.
 navItems = document.querySelectorAll('.nav-item');
+offCanvasCloseBtn = document.querySelector('.btn-close');
 
 // Step #2: Add an event listener that listens for a click
 navItems.forEach(navItem => {
     navItem.addEventListener('click', () => {
         if (menuOpen) {
-            setTimeout(() => {menuBtn.click()}, '800');
-            navItem.click();
+            // setTimeout(() => {menuBtn.click()}, '800');
+            setTimeout(() => {offCanvasCloseBtn.click()}, '800');
+            // navItem.click();
             menuOpen = false;
         }
     });
@@ -45,7 +47,7 @@ hour = date.getHours();
 month = date.getMonth();
 day = date.getDay();
 
-if ((hour < 10 || hour > 22) || (day == 25 && month == 12) || (day == 1)) {
+if ((hour < 10 || hour > 21) || (day == 25 && month == 12) || (day == 1)) {
     closed_contact_us.classList.remove('d-none');
 } 
 else {
