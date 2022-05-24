@@ -1,6 +1,6 @@
 /* Custom Scripts */
 menuBtn = document.querySelector('.navbar-toggler');
-navbar = document.querySelector('nav');
+// navbar = document.querySelector('nav');
 let menuOpen = false;
 
 // 
@@ -47,7 +47,7 @@ hour = date.getHours();
 month = date.getMonth();
 day = date.getDay();
 
-if ((hour < 10 || hour > 21) || (day == 25 && month == 12) || (day == 1)) {
+if ((hour < 10 || hour > 21) || (day == 25 && month == 12) || (day == 1) || (day == 0)) {
     closed_contact_us.classList.remove('d-none');
 } 
 else {
