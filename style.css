@@ -142,6 +142,10 @@ h1#catering-menu {
     font-weight: bolder;
 }
 
+.perc, .perc * {
+    border: 1px solid black;
+}
+
 
 
 /* BS5 Media Queries - up or down */

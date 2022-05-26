@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
+    <!-- Required HTML Meta Tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -19,24 +19,30 @@
     <meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
     <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#ffffff">
 
-    <!-- Social Media Data (Open Graph) -->
-    <meta name="description" content="Totowa Pizza Restaurant offers much more than delicious Traditional and Sicilian Pizzas. You're bound to find something you love by giving us a try!">
-    <meta property="og:title" content="Totowa Pizza Restaurant">
-    <meta property="og:description" content="Totowa Pizza Restaurant offers much more than delicious Traditional and Sicilian Pizzas. You're bound to find something you love by giving us a try!">
-    <meta property="og:image" content="https://www.mywebsite.com/image.jpg">
-    <meta property="og:image:alt" content="An image depicting Totowa Pizza Restaurant.">
-    <meta property="og:locale" content="en_US">
-    <meta property="og:type" content="website">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta property="og:url" content="https://www.mywebsite.com/page">
-    <link rel="canonical" href="https://www.mywebsite.com/page">
-  
     <!-- Browser/Social Media Icons -->
-    <link rel="icon" href="/img/icon_pizza.ico">
-    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <link rel="icon" href="img/pizza_icon.ico">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
     <link rel="manifest" href="/my.webmanifest">
     <meta name="theme-color" content="#FF00FF">
+
+    <!-- Facebook Open Graph Meta Tags -->
+    <meta property="og:url" content="https://www.totowapizza.com/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Totowa Pizza Restaurant">
+    <meta property="og:description" content="Totowa Pizza Restaurant offers much more than delicious Traditional and Sicilian Pizzas. You're bound to find something you love by giving us a try!">
+    <meta property="og:image" content="img/web_img.jpg">
+    <meta property="og:image:width" content="1200"/>
+    <meta property="og:image:height" content="630"/>
+    <meta property="og:image:alt" content="An image depicting Totowa Pizza Restaurant.">
+    <meta property="og:locale" content="en_US">
+
+    <!-- Twitter Open Graph Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:domain" content="totowapizza.com">
+    <meta property="twitter:url" content="https://www.totowapizza.com/">
+    <meta name="twitter:title" content="Totowa Pizza Restaurant">
+    <meta name="twitter:description" content="Totowa Pizza Restaurant offers much more than delicious Traditional and Sicilian Pizzas. You're bound to find something you love by giving us a try!">
+    <meta name="twitter:image" content="https://www.mywebsite.com/image.jpg">
 
   </head>
   <body>
@@ -2283,7 +2289,7 @@
                   </div>
 
                   <div class="card border-0">
-                    <div class="card-body menu-item-card-body">
+                    <div class="card-body menu-item-card-body pt-1">
                       <div class="d-inline-flex w-100">
                         <p><span class="vegan-menu-option">*</span> Veggie Stromboli</p>
                         <p class="ms-auto">$11.95</p>
@@ -2292,7 +2298,7 @@
                   </div>
 
                   <div class="card border-0">
-                    <div class="card-body menu-item-card-body">
+                    <div class="card-body menu-item-card-body pt-1">
                       <div class="d-inline-flex w-100">
                         <p>Stromboli</p>
                         <p class="ms-auto">$9.95</p>
@@ -2473,7 +2479,34 @@
 
             <!-- Catering Menu -->
             <h1 id="catering-menu" class="text-center text-decoration-underline">Catering Menu</h1>
-            <p class="text-center pb-5"><em>Coming Soon!</em></p>
+            <p class="text-center mb-0"><em>Choose any appetizer from our regular menu.</em></p>
+            <p class="text-center mb-0"><em>Half Trays serve 8-10 people</em></p>
+            <p class="text-center pb-1"><em>Full Trays serve 13-15 people</em></p>
+
+            <div class="container-fluid container-md d-flex align-items-center">
+              <div class="menu-category text-center">Salads</div>
+              <h4 class="catering-tray my-auto delivery-header ms-auto">Half Tray | Full Tray</h4>
+            </div>
+
+            <div class="card border-0">
+              <div class="card-body menu-item-card-body pt-1">
+                <div class="d-inline-flex w-100">
+                  <p>Add Grilled Chicken</p>
+                  <p class="ms-auto">+$12.95 | +$19.95</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="card border-0">
+              <div class="card-body menu-item-card-body pt-0">
+                <div class="d-inline-flex w-100">
+                  <p>Add Any Seafood</p>
+                  <p class="ms-auto">+$18.95 | +$25.95</p>
+                </div>
+              </div>
+            </div>
+
+
 
           </div>
 
@@ -2535,7 +2568,7 @@
               <div class="col d-grid justify-content-start justify-content-md-center align-items-center">
                 <!-- Operating Hours -->
                 <div id="operating-hours" class="pb-3">
-                  <h5>Operating Hours</h5>
+                  <h5 class="delivery-header">Operating Hours</h5>
                   <p>Tuesday to Saturday : 10 AM - 9 PM</p>
                   <p>Sunday, Monday & Special Holidays: Closed</p>
                   <p id="open-status" class="d-none">Current Status: <span class="vegan-menu-option">Open</span></p>
@@ -2544,14 +2577,14 @@
 
                 <!-- Phone Number -->
                 <div id="phone-number" class="pb-3">
-                  <h5>Phone Number</h5>
+                  <h5 class="delivery-header">Phone Number</h5>
                   <p class="mb-2 text-decoration-none text-black">(973)-689-6465</p>
                   <a href="tel:973-689-6465" class="material text-decoration-none rounded mb-3" type="button">Click to Call: <i class="fa-solid fa-mobile-screen-button"></i></a>
                 </div>
                 
                 <!-- Address -->
                 <div id="address" class="pb-3">
-                  <h5>Address</h5>
+                  <h5 class="delivery-header">Address</h5>
                   <p class="mb-2">333 Totowa Rd, Totowa, NJ 07512</p>
                   <a href="https://maps.google.com/maps/dir//Totowa+pizza+333+Totowa+Rd+Totowa,+NJ+07512/@40.9047171,-74.2090899,15z/data=!4m5!4m4!1m0!1m2!1m1!1s0x89c2ffde621c25bf:0xb0a27b269867cc33" target="_blank" class="material text-decoration-none rounded mb-3" type="button">Click for Directions:  <i class="fa-solid fa-map-location-dot"></i></a>
                 </div>
@@ -2571,7 +2604,21 @@
 
     <!-- Footer -->
     <footer class="border-top">
-      <p class="text-center">Created with <i class="fa-solid fa-heart"></i> by Rodney Nuñez</p>
+        <div class="container">
+          <div class="row">
+
+            <div class="col-12 col-md-6">
+              <p class="text-center text-decoration-underline pb-0 mb-0">Created with <i class="fa-solid fa-heart"></i> by Rodney Nuñez</p>
+            </div>
+
+            <div class="col-12 col-md-6 text-center">
+              <a href="https://www.flaticon.com/free-icons/pizza" title="pizza icons" class="text-dark text-decoration-none" target="_blank">
+                <p>Pizza icons created by Freepik - Flaticon</p>
+              </a>
+            </div>
+
+          </div>
+        </div>
     </footer>
 
     <!-- Scripts: Custom & BS5 & PopperJS -->
