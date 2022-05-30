@@ -134,10 +134,6 @@ h1#catering-menu {
     color: #1A8754;
 }
 
-.menu-item-card-body, .menu-item-card-body * {
-    border: 1px solid black;
-}
-
 .menu-item-card-body .d-inline.flex {
     display: flex;
     align-items: center;
