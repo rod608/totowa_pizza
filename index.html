@@ -2544,32 +2544,59 @@
             <h1 id="catering-menu" class="text-center text-decoration-underline">Catering Menu</h1>
             <p class="text-center mb-0"><em>Choose any appetizer from our regular menu.</em></p>
             <p class="text-center mb-0"><em>Half Trays serve 8-10 people</em></p>
-            <p class="text-center pb-1"><em>Full Trays serve 13-15 people</em></p>
+            <p class="text-center"><em>Full Trays serve 13-15 people</em></p>
 
-            <div class="container-fluid container-md d-flex align-items-center">
-              <div class="menu-category text-center">Salads</div>
-              <h4 class="catering-tray my-auto delivery-header ms-auto">Half Tray | Full Tray</h4>
+          <!-- Catering Menu Images -->
+          <div class="menu-images catering-menu-images mb-3">
+
+            <div class="menu-images-item">
+              <a class="mx-auto my-auto" type="button" data-bs-toggle="modal" data-bs-target="#cateringmenu_1">
+                <img src="img/catering_menu_1.jpg" alt="Menu Image" class="menu-image d-block img-fluid mx-auto my-auto shadow">
+              </a>
             </div>
 
-            <div class="card border-0">
-              <div class="card-body menu-item-card-body pt-1">
-                <div class="d-inline-flex w-100">
-                  <p>Add Grilled Chicken</p>
-                  <p class="ms-auto">+$12.95 | +$19.95</p>
+            <div class="menu-images-item">
+              <a class="mx-auto my-auto" type="button" data-bs-toggle="modal" data-bs-target="#cateringmenu_2">
+                <img src="img/catering_menu_2.jpg" alt="Menu Image" class="menu-image d-block img-fluid mx-auto my-auto shadow">
+              </a>
+            </div>
+
+          </div>
+
+          <!-- Catering Menu Modals -->
+          <div class="modal modal-xl fade" id="cateringmenu_1" tabindex="-1" aria-labelledby="cateringMenu1Modal" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Catering, Part 1 of 2</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="img/catering_menu_1.jpg" alt="Menu Image" class="menu-image d-block img-fluid mx-auto my-auto shadow">
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                 </div>
               </div>
             </div>
+          </div>
 
-            <div class="card border-0">
-              <div class="card-body menu-item-card-body pt-0">
-                <div class="d-inline-flex w-100">
-                  <p>Add Any Seafood</p>
-                  <p class="ms-auto">+$18.95 | +$25.95</p>
+          <div class="modal modal-xl fade" id="cateringmenu_2" tabindex="-1" aria-labelledby="cateringMenu2Modal" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Catering Menu, Part 2 of 2</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="img/catering_menu_2.jpg" alt="Menu Image" class="menu-image d-block img-fluid mx-auto my-auto shadow">
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                 </div>
               </div>
             </div>
-
-
+          </div>
 
           </div>
 

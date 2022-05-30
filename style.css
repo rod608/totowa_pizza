@@ -175,6 +175,10 @@ h1#catering-menu {
     margin-bottom: auto;
 }
 
+.catering-menu-images img {
+    height: 30rem;
+}
+
 /* Delivery */
 .delivery-header {
     color: #4C4C4C;
