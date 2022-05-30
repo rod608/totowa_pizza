@@ -191,8 +191,10 @@ h1#catering-menu {
 }
 
 /* BS5 Media Queries - up or down */
-@media (min-width: 576px) {
-
+@media (max-width: 576px) {
+    .menu-images {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
 
 @media (max-width: 768px) { 
@@ -211,7 +213,7 @@ h1#catering-menu {
 
     /** Menu */
     .menu-images {
-        gap: .5rem;
+        gap: .5rem !important;
     }
 
     .menu-item-desc {
