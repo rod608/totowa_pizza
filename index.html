@@ -23,31 +23,38 @@
     <!-- Theme Colors: Useful for Mobile Browser Background -->
     <meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
     <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
 
-    <!-- Browser/Social Media Icons -->
+    <!-- Browser/Mobile Icons -->
+    <!-- <link rel="manifest" href="/my.webmanifest"> -->
     <link rel="icon" href="img/pizza_icon.ico">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-    <link rel="manifest" href="/my.webmanifest">
-    <meta name="theme-color" content="#FF00FF">
+    <link rel="apple-touch-icon" sizes="152x152" href="favicon-152-ipad.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon-180-iphone-retina.png">
+    <link rel="apple-touch-icon" sizes="167x167" href="favicon-167-ipad-retina.png">
 
-    <!-- Facebook Open Graph Meta Tags -->
+    <!-- Social Media: Facebook Open Graph -->
     <meta property="og:url" content="https://www.totowapizza.com/">
     <meta property="og:type" content="website">
+    <meta property="og:locale" content="en_US">
     <meta property="og:title" content="Totowa Pizza Restaurant">
     <meta property="og:description" content="Totowa Pizza Restaurant offers much more than delicious Traditional and Sicilian Pizzas. You're bound to find something you love by giving us a try!">
     <meta property="og:image" content="https://www.mywebsite.com/pizza_closeup_1.jpg">
     <meta property="og:image:width" content="1200"/>
     <meta property="og:image:height" content="630"/>
     <meta property="og:image:alt" content="An image depicting Totowa Pizza Restaurant.">
-    <meta property="og:locale" content="en_US">
 
-    <!-- Twitter Open Graph Meta Tags -->
-    <meta name="twitter:card" content="summary_large_image">
+    <!-- Social Media: Twitter Open Graph -->
     <meta property="twitter:domain" content="totowapizza.com">
     <meta property="twitter:url" content="https://www.totowapizza.com/">
+    <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Totowa Pizza Restaurant">
     <meta name="twitter:description" content="Totowa Pizza Restaurant offers much more than delicious Traditional and Sicilian Pizzas. You're bound to find something you love by giving us a try!">
     <meta name="twitter:image" content="https://www.mywebsite.com/image.jpg">
+
+    <!-- Web App: Microsoft -->
+    <meta name="msapplication-TileColor" content="#FFFFFF">
+    <meta name="msapplication-TileImage" content="favicon-144.png">
 
   </head>
   <body>
@@ -109,11 +116,10 @@
           -->
 
           <!-- Menu Title -->
-          <h1 class="text-center text-decoration-underline">Menu</h1>
-          <p class="my-auto text-center mb-0">
-            <span class="vegan-menu-option">*</span> Asterisk = Vegetarian Friendly <span class="vegan-menu-option">*</span>
+          <p class="text-center mb-0"><span class="catering-alert">!!!</span> scroll down for our <a href="#catering-menu" class="text-dark">catering services</a> <span class="catering-alert">!!!</span></p>
+          <p class="my-auto text-center mb-2">
+            <span class="vegan-menu-option">*</span> Vegetarian Friendly <span class="vegan-menu-option">*</span>
           </p>
-          <p class="text-center"><span class="catering-alert">!!!</span> scroll down for our <a href="#catering-menu" class="text-dark">catering services</a> <span class="catering-alert">!!!</span></p>
 
           <!-- Menu Body -->
           <div class="container-fluid container-md">
@@ -122,7 +128,7 @@
               <div class="row g-4 g-md-0">
 
                 <!-- Regular Pizzas -->
-                <div class="col-md-6">
+                <div class="col-lg-6 col-12">
                   <div class="menu-category text-center">Pizza</div>
                   <div class="menu-category-description text-center">
                     <p class="my-auto">
@@ -132,7 +138,7 @@
 
                   <div class="card border-0">
                     <div class="card-body menu-item-card-body">
-                      <div class="d-inline-flex w-100">
+                      <div class="d-inline-flex align-items-center w-100">
                         <p><span class="vegan-menu-option">*</span> Traditional Cheese Pizza</p>
                         <p class="ms-auto">$12.95 | $15.95</p>
                       </div>
@@ -421,7 +427,7 @@
                 </div>
 
                 <!-- Sicilian Pizzas -->
-                <div class="col-md-6">
+                <div class="col-lg-6 col-12">
                   <div class="menu-category text-center">Sicilian Pizza</div>
                   <div class="menu-category-description text-center">
                     <p class="my-auto">
@@ -762,7 +768,7 @@
               <div class="row g-4 g-md-0">
 
                 <!-- Pastas -->
-                <div class="col-md-6">
+                <div class="col-12 col-lg-6">
                   <div class="menu-category text-center">Pastas</div>
                   <div class="menu-category-description text-center">
                     <p class="my-auto">
@@ -1025,7 +1031,7 @@
                 </div>
 
                 <!-- Salads -->
-                <div class="col-md-6">
+                <div class="col-12 col-lg-6">
                   <div class="menu-category text-center">Salads</div>
                   <div class="menu-category-description text-center">
                     <p class="my-auto">
@@ -1259,7 +1265,7 @@
               <div class="row g-4 g-md-0">
 
                 <!-- Gourmet Subs -->
-                <div class="col-md-6">
+                <div class="col-12 col-lg-6">
                   <div class="menu-category text-center">Gourmet Subs</div>
                   <div class="menu-category-description text-center">
                     <p class="my-auto">
@@ -1471,7 +1477,7 @@
                 </div>
 
                 <!-- Hot Subs -->
-                <div class="col-md-6">
+                <div class="col-12 col-lg-6">
                   <div class="menu-category text-center">Hot Subs</div>
                   <div class="menu-category-description text-center">
                     <p class="my-auto">
@@ -1728,7 +1734,7 @@
               <div class="row g-4 g-md-0">
 
                 <!-- Wraps -->
-                <div class="col-md-6">
+                <div class="col-12 col-lg-6">
                   <div class="menu-category text-center">Wraps</div>
                   <div class="menu-category-description text-center">
                     <p class="my-auto">
@@ -1916,7 +1922,7 @@
                 </div>
 
                 <!-- Paninis -->
-                <div class="col-md-6">
+                <div class="col-12 col-lg-6">
                   <div class="menu-category text-center">Paninis</div>
                   <div class="menu-category-description text-center">
                     <p class="my-auto">
@@ -2127,7 +2133,7 @@
               <div class="row g-4 g-md-0">
 
                 <!-- Seafood -->
-                <div class="col-md-6">
+                <div class="col-12 col-lg-6">
                   <div class="menu-category text-center">Seafood</div>
                   <div class="menu-category-description text-center">
                     <p class="my-auto">
@@ -2314,7 +2320,7 @@
                 </div>
 
                 <!-- Burgers -->
-                <div class="col-md-6">
+                <div class="col-12 col-lg-6">
                   <div class="menu-category text-center">Burgers</div>
                   <div class="menu-category-description text-center">
                     <p class="my-auto">
@@ -2597,7 +2603,7 @@
 
               <!-- Google Maps -->
               <div class="col" id="maps-div">
-                <iframe class="shadow-lg rounded-3 d-block mx-auto img-fluid w-100 h-100" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12062.011763847368!2d-74.2090899!3d40.9047171!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb0a27b269867cc33!2sTotowa%20pizza!5e0!3m2!1sen!2sus!4v1652986060198!5m2!1sen!2sus" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe title="Google Maps" class="shadow-lg rounded-3 d-block mx-auto img-fluid w-100 h-100" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12062.011763847368!2d-74.2090899!3d40.9047171!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb0a27b269867cc33!2sTotowa%20pizza!5e0!3m2!1sen!2sus!4v1652986060198!5m2!1sen!2sus" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
               </div>
 
             </div>
