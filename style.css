@@ -210,9 +210,9 @@ h1#catering-menu {
     }
 
     /** Menu */
-    /* .menu-item-container:hover {
-        padding: 0px;
-    } */
+    .menu-images {
+        gap: .5rem;
+    }
 
     .menu-item-desc {
         display: grid;
