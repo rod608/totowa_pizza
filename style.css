@@ -134,13 +134,25 @@ h1#catering-menu {
     color: #1A8754;
 }
 
+.menu-item-card-body, .menu-item-card-body * {
+    border: 1px solid black;
+}
+
+.menu-item-card-body .d-inline.flex {
+    display: flex;
+    align-items: center;
+}
+
 #menu .menu-item-card-body p:first-child {
     font-size: 1.1rem !important;
     font-weight: 500 !important;
+    margin-top: 0;
 }
 
 #menu .menu-item-card-body p {
     font-size: .9rem;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 /* Delivery */
