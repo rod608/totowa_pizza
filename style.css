@@ -91,7 +91,31 @@ nav .btn-success {
 }
 
 /* Menu */
-#menu a:hover {
+.menu-images {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 1rem;
+    width: 100%;
+}
+
+.menu-images a{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-image {
+    border-radius: 5px;
+}
+
+.menu-images a:hover {
+    transition: all .3s ease;
+    -webkit-box-shadow: 1px 2px 50px 5px #CFFF90; 
+    box-shadow: 1px 2px 50px 5px #CFFF90;
+}
+
+#menu a.text-dark:hover {
     transition: all .3s ease;
     text-decoration: none;
     background: #1A8754;
@@ -100,7 +124,7 @@ nav .btn-success {
     font-family: 'Ubuntu', sans-serif;
 }
 
-.menu-nav a {
+.menu-nav a.text-dark {
     font-family: 'Ubuntu', sans-serif;
     font-weight: 600;
     color:#4C4C4C;
