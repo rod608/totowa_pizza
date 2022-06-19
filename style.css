@@ -90,6 +90,20 @@ nav .btn-success {
     border-radius: 15px;
 }
 
+/* Header */
+header {
+    background: #bcbcbc;
+    padding: 20px 20px;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+
+header .closed {
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+
 /* Menu */
 .menu-images {
     display: grid;
